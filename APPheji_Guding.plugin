@@ -1,9 +1,9 @@
-#!name=APP脚本合集-骨钉（iTunes）
+#!name=APP脚本合集-iTunes
 #!desc=仅保留 iTunes 合集
-#!openUrl=https://t.me/Guding88
-#!author=骨钉
-#!homepage=https://github.com/Guding88/Script/blob/main/Readme.md
-#!icon=https://raw.githubusercontent.com/Guding88/iCon/main/png/Guding.png
+#!openUrl=https://t.me
+#!author=iTunes
+#!homepage=https://github.com/Lou-Xiaohei/Script/blob/main/Readme.md
+#!icon=iTunes
 
 [Script]
 
