@@ -6,7 +6,7 @@
 [Script]
 
 # iTunes 合集
-iTunes合集 = type=http-response, requires-body=1, max-size=0, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+iTunes合集 = type=http-response, requires-body=1, max-size=0, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_iTunes.js
 
 
 [MITM]
