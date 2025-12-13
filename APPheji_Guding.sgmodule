@@ -1,0 +1,14 @@
+#!name=APP解锁合集-骨钉（iTunes）
+#!desc=仅保留 iTunes 解锁脚本
+#!homepage=https://github.com/Guding88/Script/blob/main/Readme.md
+#!category=APP解锁合集-骨钉
+
+[Script]
+
+# iTunes 合集
+iTunes合集 = type=http-response, requires-body=1, max-size=0, pattern=^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$, script-path=https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+
+
+[MITM]
+
+hostname = %APPEND% buy.itunes.apple.com
