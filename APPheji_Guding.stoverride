@@ -1,0 +1,20 @@
+name: "iTunes"
+desc: "iTunes Receipt Script"
+
+http:
+  script:
+    - match: ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$
+      name: "iTunes"
+      type: response
+      timeout: 30
+      require-body: true
+      max-size: 3145728
+      binary-mode: false
+
+  mitm:
+    - "buy.itunes.apple.com"
+
+script-providers:
+  "iTunes":
+    url: https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+    interval: 86400
