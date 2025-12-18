@@ -1,12 +1,9 @@
 /*
 
-TG频道：https://t.me/Guding88
-TG群组：https://t.me/GudingChat
-
-iTunes解锁合集，已解锁APP及下载地址请见说明：https://github.com/Guding88/Script/blob/main/Readme.md
+iTunes解锁合集，已解锁APP及下载地址请见说明：https://github.com/Lou-Xiaohei/Script/blob/main/Readme.md
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/APPheji_iTunes.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_iTunes.js
 
 [MITM]
 hostname = buy.itunes.apple.com
@@ -25,7 +22,7 @@ for (var key in $request.headers) {
 }
 var UA = $request.headers['user-agent'];
 var uaProductMapping = {
-  'ScreenRecord': {product_id: 'https://t.me/Guding88'},
+  'ScreenRecord': {product_id: 'https://t.me/'},
   'bazaart': {product_id: 'Bazaart_Premium_Monthly_v9',},
   '%E6%8B%8D%E7%89%B9%E5%86%85%E5%A4%B4': {product_id: 'Patternator_Lock_Screen_Monthly'},
   'Revive': {product_id: 'revive.inapp.pro.lt_wotrial_42.99'},
@@ -40,10 +37,10 @@ var uaProductMapping = {
   'TWWeatherMajor': {product_id: 'com.highonemob.weather.base.w'},
   'ProKnockOut': {product_id: 'com.knockout.1monthplus.2weektrail'},
   'PutApp': {product_id: 'com.maliquankai.appdesign'},
-  'CCD_Camera': {product_id: 'https://t.me/Guding88'},
-  'CHAT%20AI': {product_id: 'https://t.me/Guding88'},
-  'Koloro': {product_id: 'https://t.me/Guding88'},
-  'AllMyBatteries': {product_id: 'https://t.me/Guding88'},
+  'CCD_Camera': {product_id: 'https://t.me/'},
+  'CHAT%20AI': {product_id: 'https://t.me/'},
+  'Koloro': {product_id: 'https://t.me/'},
+  'AllMyBatteries': {product_id: 'https://t.me/'},
   'ReLens': {product_id: 'com.risingcabbage.pro.camera.yearlysubscription'},
   'Fashion%20Design%20Sketches': {product_id: 'com.pocketartstudio.fashiondesign.twomonths'},
   'StylishText': {product_id: 'com.app.StylishText.sub.monthly'},//试用后生效
@@ -115,7 +112,7 @@ var receipt = {
   "is_trial_period": "false",
   "original_transaction_id": "666666666666666",
   "purchase_date": "2023-06-06 06:06:06 Etc\/GMT",
-  "product_id": "https://t.me/Guding88",
+  "product_id": "https://t.me/",
   "original_purchase_date_pst": "2023-06-06 06:06:06 America\/Los_Angeles",
   "in_app_ownership_type": "PURCHASED",
   "subscription_group_identifier": "20877951",
@@ -127,9 +124,9 @@ var receipt = {
 }
 var renewal = {
   "expiration_intent": "1",
-  "product_id": "https://t.me/Guding88",
+  "product_id": "https://t.me/",
   "is_in_billing_retry_period": "0",
-  "auto_renew_product_id": "https://t.me/Guding88",
+  "auto_renew_product_id": "https://t.me/",
   "original_transaction_id": "666666666666666",
   "auto_renew_status": "0"
 }
