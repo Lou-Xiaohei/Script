@@ -23,18 +23,18 @@
 
 ### Surge 模块
 
-https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_Guding.sgmodule
+https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji.sgmodule
 
 ### Loon 插件
 
-https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_Guding.plugin
+https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji.plugin
 
 ### Stash 复写
 
-https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_Guding.stoverride
+https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji.stoverride
 
 ### Shadowrocket 模块
 
-https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji_Guding.sgmodule
+https://raw.githubusercontent.com/Lou-Xiaohei/Script/refs/heads/main/APPheji.sgmodule
 
 ---
